@@ -49,3 +49,19 @@ The app uses the hive database for local storage.
 
 **Justification:** Hive is a lightweight, fast, and efficient NoSQL database for Flutter applications. It is easy to use and provides a straightforward API for storing and retrieving data locally. Hive is chosen for its performance and simplicity, making it a suitable choice for caching data in a mobile application.
 
+# code_challenge
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
