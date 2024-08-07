@@ -5,7 +5,7 @@ import 'package:code_challenge/features/supported_currencies/presentation/pages/
 
 final routes = {
   AppRoutes.initialRoute: (context) => const CurrencyConverterHomeScreen(),
-  AppRoutes.converterPageRoute: (context) =>  ConverterFeatureScreen(),
+  AppRoutes.converterPageRoute: (context) => ConverterFeatureScreen(),
   AppRoutes.supportedCurrenciesPageRoute: (context) =>
       SupportedCurrenciesFeatureScreen(),
 };

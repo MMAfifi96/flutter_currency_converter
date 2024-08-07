@@ -1,4 +1,3 @@
-// lib/features/supported_currencies/domain/use_cases/get_currencies.dart
 import 'package:code_challenge/core/failures.dart';
 import 'package:dartz/dartz.dart';
 import 'package:code_challenge/features/supported_currencies/domain/entities/currency.dart';

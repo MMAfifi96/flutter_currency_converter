@@ -6,14 +6,20 @@ class Currency {
     required this.code,
     required this.name,
   });
-}
 
-class Flag {
-  final String countryCode;
-  final String url;
+  // Convert a Currency into a Map.
+  Map<String, dynamic> toMap() {
+    return {
+      'code': code,
+      'name': name,
+    };
+  }
 
-  Flag({
-    required this.countryCode,
-    required this.url,
-  });
+  // Convert a Map into a Currency.
+  factory Currency.fromMap(Map<String, dynamic> map) {
+    return Currency(
+      code: map['code'],
+      name: map['name'],
+    );
+  }
 }

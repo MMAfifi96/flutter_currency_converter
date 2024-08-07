@@ -1,4 +1,3 @@
-// lib/currency_converter_app.dart
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
@@ -7,7 +6,7 @@ import 'core/injection.dart';
 import 'features/converter/presentation/manager/bloc/conversion_bloc.dart';
 import 'features/currencies_historical_data/domain/use_cases/get_historical_data.dart';
 import 'features/supported_currencies/domain/use_cases/get_currencies.dart';
-import 'features/supported_currencies/presentation/manager/currency_bloc.dart';
+import 'features/supported_currencies/presentation/manager/bloc/currency_bloc.dart';
 import 'features/currencies_historical_data/presentation/manager/historical_data_bloc.dart';
 
 class CurrencyConverterApp extends StatelessWidget {

@@ -3,7 +3,6 @@ import 'package:code_challenge/features/supported_currencies/domain/use_cases/ge
 import 'package:code_challenge/features/supported_currencies/presentation/manager/bloc/currency_event.dart';
 import 'package:code_challenge/features/supported_currencies/presentation/manager/bloc/currency_state.dart';
 
-
 class CurrencyBloc extends Bloc<CurrencyEvent, CurrencyState> {
   final GetCurrencies getCurrencies;
 

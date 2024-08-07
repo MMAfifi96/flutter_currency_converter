@@ -1,4 +1,3 @@
-import 'package:code_challenge/core/utils/app_colors.dart';
 import 'package:code_challenge/core/utils/app_strings.dart';
 import 'package:code_challenge/features/converter/presentation/widgets/converter_screen_button.dart';
 import 'package:code_challenge/features/currencies_historical_data/presentation/widgets/currencies_historical_data_screen_button.dart';

@@ -1,3 +1,4 @@
+import 'package:code_challenge/shared/reusable_components/reusable_elevated_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -80,8 +81,9 @@ class _ConverterFeatureScreenState extends State<ConverterFeatureScreen> {
               ],
             ),
             SizedBox(height: 16.0),
-            ElevatedButton(
-              onPressed: () {
+
+            ReusableButton(
+              onTap: () {
                 if (_amountController.text.isEmpty ||
                     double.tryParse(_amountController.text) == null) {
                   ScaffoldMessenger.of(context).showSnackBar(
@@ -93,7 +95,12 @@ class _ConverterFeatureScreenState extends State<ConverterFeatureScreen> {
                   );
                 }
               },
-              child: Text('Convert'),
+              child: Text(
+                'Convert',
+                style: TextStyle(color: Colors.white),
+              ),
+              height: MediaQuery.sizeOf(context).height / 20,
+              buttonColor: Colors.green,
             ),
             SizedBox(height: 16.0),
             Center(

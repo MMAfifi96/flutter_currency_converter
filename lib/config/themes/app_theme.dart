@@ -14,7 +14,6 @@ ThemeData appTheme() {
           color: AppColors.homePageAppBarText,
           fontSize: 20,
           fontWeight: FontWeight.bold,
-
         )),
   );
 }

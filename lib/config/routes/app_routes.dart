@@ -1,4 +1,3 @@
-// lib/config/routes/app_routes.dart
 import 'package:code_challenge/features/converter/presentation/pages/converter_feature_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:code_challenge/features/currencies_historical_data/presentation/pages/currencies_historical_data_feature_screen.dart';
@@ -26,7 +25,8 @@ class AppRoutes {
           ),
         );
       case supportedCurrenciesPageRoute:
-        return MaterialPageRoute(builder: (_) => SupportedCurrenciesFeatureScreen());
+        return MaterialPageRoute(
+            builder: (_) => SupportedCurrenciesFeatureScreen());
       default:
         return MaterialPageRoute(
           builder: (_) => Scaffold(

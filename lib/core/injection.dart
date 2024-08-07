@@ -13,11 +13,9 @@ import 'package:code_challenge/features/supported_currencies/data/remote/data_so
 import 'package:code_challenge/features/supported_currencies/data/repositories/currency_repository_implementation.dart';
 import 'package:code_challenge/features/supported_currencies/domain/repositories/currency_repository.dart';
 import 'package:code_challenge/features/supported_currencies/domain/use_cases/get_currencies.dart';
-import 'package:code_challenge/features/supported_currencies/presentation/manager/currency_bloc.dart';
+import 'package:code_challenge/features/supported_currencies/presentation/manager/bloc/currency_bloc.dart';
 import 'package:get_it/get_it.dart';
 import 'package:http/http.dart' as http;
-
-
 
 final sl = GetIt.instance;
 
