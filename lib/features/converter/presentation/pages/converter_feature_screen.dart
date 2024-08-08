@@ -81,7 +81,6 @@ class _ConverterFeatureScreenState extends State<ConverterFeatureScreen> {
               ],
             ),
             SizedBox(height: 16.0),
-
             ReusableButton(
               onTap: () {
                 if (_amountController.text.isEmpty ||

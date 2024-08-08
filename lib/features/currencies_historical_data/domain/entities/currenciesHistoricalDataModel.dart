@@ -1,4 +1,3 @@
-// lib/features/currencies_historical_data/domain/entities/historical_data.dart
 import 'package:equatable/equatable.dart';
 
 class HistoricalData extends Equatable {

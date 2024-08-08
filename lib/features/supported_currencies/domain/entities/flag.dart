@@ -7,7 +7,6 @@ class Flag {
     required this.url,
   });
 
-  // Convert a Flag into a Map.
   Map<String, dynamic> toMap() {
     return {
       'countryCode': countryCode,
@@ -15,7 +14,6 @@ class Flag {
     };
   }
 
-  // Convert a Map into a Flag.
   factory Flag.fromMap(Map<String, dynamic> map) {
     return Flag(
       countryCode: map['countryCode'],

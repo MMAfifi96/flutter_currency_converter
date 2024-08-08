@@ -1,5 +1,6 @@
-import 'package:code_challenge/features/currencies_historical_data/domain/entities/currenciesHistoricalDataModel.dart';
 import 'package:equatable/equatable.dart';
+
+import '../../domain/entities/currenciesHistoricalDataModel.dart';
 
 abstract class HistoricalDataState extends Equatable {
   const HistoricalDataState();
@@ -13,7 +14,7 @@ class HistoricalDataInitial extends HistoricalDataState {}
 class HistoricalDataLoading extends HistoricalDataState {}
 
 class HistoricalDataLoaded extends HistoricalDataState {
-  final List<HistoricalData> historicalData;
+  final Map<String, List<HistoricalData>> historicalData;
 
   const HistoricalDataLoaded({required this.historicalData});
 

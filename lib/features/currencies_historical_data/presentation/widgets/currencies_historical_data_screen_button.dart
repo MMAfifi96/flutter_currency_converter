@@ -1,6 +1,5 @@
 import 'package:code_challenge/config/routes/app_routes.dart';
 import 'package:flutter/material.dart';
-import 'package:code_challenge/features/currencies_historical_data/presentation/pages/currencies_historical_data_feature_screen.dart';
 import 'package:code_challenge/core/utils/app_colors.dart';
 import 'package:code_challenge/shared/reusable_components/reusable_elevated_button.dart';
 

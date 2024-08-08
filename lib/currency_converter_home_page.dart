@@ -1,8 +1,8 @@
 import 'package:code_challenge/core/utils/app_strings.dart';
+import 'package:flutter/material.dart';
 import 'package:code_challenge/features/converter/presentation/widgets/converter_screen_button.dart';
 import 'package:code_challenge/features/currencies_historical_data/presentation/widgets/currencies_historical_data_screen_button.dart';
 import 'package:code_challenge/features/supported_currencies/presentation/widgets/supported_currencies_screen_button.dart';
-import 'package:flutter/material.dart';
 
 class CurrencyConverterHomeScreen extends StatefulWidget {
   const CurrencyConverterHomeScreen({super.key});
@@ -19,9 +19,7 @@ class _CurrencyConverterHomeScreenState
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
-        title: Text(
-          AppStrings.appName,
-        ),
+        title: Center(child: Text(AppStrings.appName)),
       ),
       body: Center(
         child: Column(

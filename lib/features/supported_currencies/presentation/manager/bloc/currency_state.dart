@@ -1,4 +1,3 @@
-// lib/features/supported_currencies/presentation/bloc/currency_state.dart
 import 'package:equatable/equatable.dart';
 import 'package:code_challenge/features/supported_currencies/domain/entities/currency.dart';
 

@@ -1,6 +1,5 @@
 import 'package:code_challenge/config/routes/app_routes.dart';
 import 'package:code_challenge/core/utils/app_colors.dart';
-import 'package:code_challenge/features/converter/presentation/pages/converter_feature_screen.dart';
 import 'package:code_challenge/shared/reusable_components/reusable_elevated_button.dart';
 import 'package:flutter/material.dart';
 

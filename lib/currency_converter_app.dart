@@ -1,7 +1,9 @@
+import 'package:code_challenge/core/utils/app_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
 import 'config/routes/app_routes.dart';
+import 'config/themes/app_theme.dart';
 import 'core/injection.dart';
 import 'features/converter/presentation/manager/bloc/conversion_bloc.dart';
 import 'features/currencies_historical_data/domain/use_cases/get_historical_data.dart';
@@ -34,9 +36,10 @@ class CurrencyConverterApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Currency Converter',
+        title: AppStrings.appName,
         initialRoute: AppRoutes.initialRoute,
         onGenerateRoute: AppRoutes.generateRoute,
+        theme: appTheme(),
       ),
     );
   }

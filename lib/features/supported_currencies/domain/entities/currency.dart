@@ -7,7 +7,6 @@ class Currency {
     required this.name,
   });
 
-  // Convert a Currency into a Map.
   Map<String, dynamic> toMap() {
     return {
       'code': code,
@@ -15,7 +14,6 @@ class Currency {
     };
   }
 
-  // Convert a Map into a Currency.
   factory Currency.fromMap(Map<String, dynamic> map) {
     return Currency(
       code: map['code'],

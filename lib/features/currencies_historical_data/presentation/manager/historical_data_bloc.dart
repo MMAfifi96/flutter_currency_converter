@@ -17,14 +17,19 @@ class HistoricalDataBloc extends Bloc<HistoricalDataEvent, HistoricalDataState> 
       ) async {
     emit(HistoricalDataLoading());
     final failureOrData = await getHistoricalData(event.currencyPair1, event.currencyPair2);
-    emit(failureOrData.fold(
-          (failure) => HistoricalDataError(message: _mapFailureToMessage(failure)),
-          (data) => HistoricalDataLoaded(historicalData: data),
-    ));
+    failureOrData.fold(
+          (failure) {
+        print("Failed to fetch historical data: ${failure.message}");
+        emit(HistoricalDataError(message: _mapFailureToMessage(failure)));
+      },
+          (data) {
+        print("Emitting loaded data: $data");
+        emit(HistoricalDataLoaded(historicalData: data));
+      },
+    );
   }
 
   String _mapFailureToMessage(Failure failure) {
-    // Customize your error message based on the failure type
     return 'An error occurred';
   }
 }
