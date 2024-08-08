@@ -45,9 +45,9 @@ The app uses the cached_network_image library to load and cache images.
 **Justification:** The cached_network_image library provides an efficient way to load images from the network and cache them locally. This improves the app's performance by reducing the need to fetch images from the network repeatedly, especially for images like country flags that are frequently used.
 
 **Used Database in the App:**
-The app uses the hive database for local storage.
+The app uses the sqflit database for local storage.
 
-**Justification:** Hive is a lightweight, fast, and efficient NoSQL database for Flutter applications. It is easy to use and provides a straightforward API for storing and retrieving data locally. Hive is chosen for its performance and simplicity, making it a suitable choice for caching data in a mobile application.
+**Justification:** i chose sqflite for its reliability, performance, full-featured SQL support, offline capability, and ease of use, making it ideal for managing structured data and ensuring a seamless user experience in our app.
 
 # code_challenge
 
