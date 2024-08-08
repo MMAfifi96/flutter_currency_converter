@@ -9,7 +9,7 @@ import 'features/converter/presentation/manager/bloc/conversion_bloc.dart';
 import 'features/currencies_historical_data/domain/use_cases/get_historical_data.dart';
 import 'features/supported_currencies/domain/use_cases/get_currencies.dart';
 import 'features/supported_currencies/presentation/manager/bloc/currency_bloc.dart';
-import 'features/currencies_historical_data/presentation/manager/historical_data_bloc.dart';
+import 'features/currencies_historical_data/presentation/manager/bloc/historical_data_bloc.dart';
 
 class CurrencyConverterApp extends StatelessWidget {
   const CurrencyConverterApp({super.key});

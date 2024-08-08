@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../manager/historical_data_bloc.dart';
-import '../manager/historical_data_states.dart';
+import '../manager/bloc/historical_data_bloc.dart';
+import '../manager/bloc/historical_data_states.dart';
 import 'currencies_historical_data_view.dart';
 class HistoricalDataBlocBuilder extends StatelessWidget {
   final String currencyPair1;

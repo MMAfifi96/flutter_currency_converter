@@ -1,8 +1,9 @@
 import 'package:bloc/bloc.dart';
 import 'package:code_challenge/core/failures.dart';
 import 'package:code_challenge/features/currencies_historical_data/domain/use_cases/get_historical_data.dart';
-import 'package:code_challenge/features/currencies_historical_data/presentation/manager/historical_data_events.dart';
-import 'package:code_challenge/features/currencies_historical_data/presentation/manager/historical_data_states.dart';
+import 'package:code_challenge/features/currencies_historical_data/presentation/manager/bloc/historical_data_events.dart';
+
+import 'historical_data_states.dart';
 
 class HistoricalDataBloc extends Bloc<HistoricalDataEvent, HistoricalDataState> {
   final GetHistoricalData getHistoricalData;

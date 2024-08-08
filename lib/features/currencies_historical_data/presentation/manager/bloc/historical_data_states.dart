@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 
-import '../../domain/entities/currenciesHistoricalDataModel.dart';
+import '../../../domain/entities/currenciesHistoricalDataModel.dart';
 
 abstract class HistoricalDataState extends Equatable {
   const HistoricalDataState();

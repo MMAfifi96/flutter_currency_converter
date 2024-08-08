@@ -3,7 +3,7 @@ import 'package:code_challenge/features/converter/data/repositories/conversion_r
 import 'package:code_challenge/features/converter/domain/use_cases/get_conversion_rate.dart';
 import 'package:code_challenge/features/converter/presentation/manager/bloc/conversion_bloc.dart';
 import 'package:code_challenge/features/currencies_historical_data/domain/use_cases/get_historical_data.dart';
-import 'package:code_challenge/features/currencies_historical_data/presentation/manager/historical_data_bloc.dart';
+import 'package:code_challenge/features/currencies_historical_data/presentation/manager/bloc/historical_data_bloc.dart';
 import 'package:code_challenge/features/supported_currencies/data/local/data_sources/local_currency_data_source.dart';
 import 'package:code_challenge/features/supported_currencies/data/remote/data_sources/remote_currency_data_source.dart';
 import 'package:code_challenge/features/supported_currencies/domain/repositories/currency_repository.dart';

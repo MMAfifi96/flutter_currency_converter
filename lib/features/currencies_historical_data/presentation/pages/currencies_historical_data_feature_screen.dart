@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../manager/historical_data_bloc.dart';
-import '../manager/historical_data_events.dart';
+import '../manager/bloc/historical_data_bloc.dart';
+import '../manager/bloc/historical_data_events.dart';
 import '../widgets/currencies_historical_data_bloc_builder.dart';
 
 class CurrenciesHistoricalDataFeatureScreen extends StatelessWidget {
