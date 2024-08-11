@@ -26,7 +26,7 @@ void init() {
 
   // Data sources
   sl.registerLazySingleton(() => RemoteConversionDataSource(sl()));
-  sl.registerLazySingleton(() => RemoteHistoricalDataSource(sl(),'0cb1978675179485354b'));
+  sl.registerLazySingleton(() => RemoteHistoricalDataSource(sl()));
   sl.registerLazySingleton(() => RemoteCurrencyDataSource(sl()));
   sl.registerLazySingleton(() => LocalCurrencyDataSource());
 

@@ -1,3 +1,3 @@
 class AppStrings{
-  static const appName = 'Currency Converter App';
+  static const appName = 'Currency Converter';
 }

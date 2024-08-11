@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import 'package:code_challenge/features/supported_currencies/domain/use_cases/get_currencies.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   dependencyInjection.init();
   runApp(
     const CurrencyConverterApp(),
